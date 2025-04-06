@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>نموذج موقع إلكتروني</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f8f9fa;
+    }
+
+    header {
+      background-color: #0c5ca5;
+      color: white;
+      padding: 15px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    nav {
+      background-color: #004080;
+      color: white;
+      display: flex;
+      justify-content: center;
+      padding: 10px 0;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .main {
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    .main h1 {
+      color: #0c5ca5;
+      font-size: 2em;
+    }
+
+    .main p {
+      font-size: 1.2em;
+      color: #333;
+    }
+
+    .main button {
+      background-color: #0c5ca5;
+      color: white;
+      border: none;
+      padding: 10px 25px;
+      font-size: 1em;
+      cursor: pointer;
+      border-radius: 5px;
+      margin-top: 20px;
+    }
+
+    .main button:hover {
+      background-color: #094a86;
+    }
+
+    footer {
+      background-color: #004080;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 50px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div>الشعار الوهمي</div>
+    <div>اللغة: العربية</div>
+  </header>
+
+  <nav>
+    <a href="#">الرئيسية</a>
+    <a href="#">عن الخدمة</a>
+    <a href="#">الدعم</a>
+    <a href="#">تسجيل الدخول</a>
+  </nav>
+
+  <div class="main">
+    <h1>مرحبًا بك في منصة التأشيرات الإلكترونية</h1>
+    <p>يرجى الضغط أدناه لبدء تقديم طلبك عبر الإنترنت</p>
+    <button>تقديم طلب</button>
+  </div>
+
+  <footer>
+    جميع الحقوق محفوظة &copy; 2025
+  </footer>
+
+</body>
+</html>
